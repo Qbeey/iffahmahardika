@@ -1,0 +1,199 @@
+/*===========================================
+                Media Queries
+===========================================*/
+
+/* Large Devices (Dekstop & Laptop)*/
+@media (min-width: 1200px) {}
+
+/* Medium Devices (Landscape Tablet & Medium Desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .careers-info p {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices (Small Devices & Potrait Tablet) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    /*about-remove diagonal border*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+
+    /*about content box*/
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+
+    }
+
+    /* Button */
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 20px;
+    }
+
+    /* Footer */
+    #contact-info-address-desc h3,
+    #contact-info-telp-desc h3 {
+        padding: 5px 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+    }
+
+    /* Portofolio */
+    .portofolio-info h3 {
+        font-size: 20px;
+        font-weight: 700px;
+
+    }
+
+    /* Careers */
+    .careers-info p {
+        font-size: 16px;
+    }
+
+}
+
+/* Extra Small Devices (Potrait Tablet & Landscape Phone) */
+@media (max-width: 767px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    /*Home*/
+    #home-logo img {
+        height: 50px;
+    }
+
+    #home-heading h3 {
+        font-size: 24px;
+    }
+
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+
+    /* About */
+
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+
+    /*about content box*/
+    #about-content-box {
+        width: 100%;
+        height: 500px;
+    }
+
+    /*Services*/
+    .service-item-tittle h3 {
+        font-size: 18px;
+    }
+
+    .service-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+
+    /*portofolio*/
+    .img-wrapper img {
+        min-width: 100%;
+    }
+
+    /* Footer */
+    #contact-info-address-desc h3,
+    #contact-info-telp-desc h3 {
+        padding: 5px 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #contact-info-address-icon i,
+    #contact-info-telp-icon i {
+        font-size: 30px;
+    }
+
+    #contact-social-media {
+        padding-bottom: 40px;
+    }
+
+    #contact-social-media i {
+        font-size: 20px;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* Portofolio */
+    .portofolio-info h3 {
+        font-size: 18px;
+        font-weight: 700px;
+    }
+}
+
+/*Extra Small*/
+@media (max-width: 320px) {
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    .content-tittle h3 {
+        font-size: 25px;
+    }
+
+    .service-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+
+    .service-item-tittle {
+        padding: 5px 0 0 0;
+        color: #444;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+}

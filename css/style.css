@@ -1,0 +1,536 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    position: relative;
+}
+
+/*==================================
+                Home
+===================================*/
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg-option1.png);
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-logo {
+    margin: 0 auto 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#home-heading h3 {
+    color: #444;
+    text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+/*==================================
+          Parallax Effect
+===================================*/
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*==================================
+                Button
+===================================*/
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    margin-top: 20px;
+    padding: 12px 26px 12px 26px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.btn-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    background-color: #EC080E;
+    color: #fff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+.btn-dark {
+    background: transparent;
+    color: #444;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+    background-color: #aaa;
+    color: #EC080E;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red {
+    border-color: #EC080E;
+    color: #EC080E;
+}
+
+.btn-red:hover {
+    background-color: #EC080E;
+    color: #444;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+    padding: 3px 10px;
+    /*border-radius: 0;
+    display: none;*/
+}
+
+.btn-careers {
+    height: 200px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-careers:hover .careers-more-info {
+    color: #EC080E;
+}
+
+.btn-careers-all {
+    background: transparent;
+    color: #444;
+    padding: 0;
+
+}
+
+.btn-careers-all:hover {
+    color: #EC080E;
+}
+
+/*==================================
+                Animation
+===================================*/
+#home-cover {
+    animation-duration: .5s;
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+    animation-duration: 1s;
+}
+
+#home-btn {
+    animation-delay: .8s;
+    animation-duration: 1s;
+}
+
+/*==================================
+        Content Box (General)
+===================================*/
+.content-box {
+    padding: 30px 0 60px 0;
+}
+
+.content-tittle h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #444;
+    margin: 10px 0 10px 0;
+}
+
+.content-tittle-underline {
+    width: 50px;
+    height: 3px;
+    background-color: #EC080E;
+    margin: 0 auto 30px auto;
+}
+
+/*==================================
+            Services
+===================================*/
+.service-container {
+    padding: 0 20px;
+}
+
+.service-item {
+    padding: 20px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.service-item-icon i {
+    color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-item .card-body {
+    background-color: #f8f8f8;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover .service-item-icon i {
+    color: #EC080E;
+    background-color: #fff;
+}
+
+.service-item-tittle h3 {
+    padding: 10px 0 0 0;
+    color: #444;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.service-item .card p {
+    text-align: justify;
+}
+
+/*==================================
+            About
+===================================*/
+#about-bg-diagonal {
+    width: 50%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-shadow.png);
+    border-left: 300px solid #fff;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-tittle h3 {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#about .content-tittle-underline {
+    margin: 0 0 20px 0;
+}
+
+#about-desc p {
+    color: #444;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/*==================================
+            Portofolio V2
+===================================*/
+#portofolio .content-box {
+    background-color: #f8f8f8;
+}
+
+.portofolio-member {
+    margin: 0 15px;
+}
+
+.portofolio-member img {
+    max-width: 200px;
+    margin: 0 auto 0 auto;
+}
+
+.portofolio-info {
+    padding: 10px;
+
+}
+
+.portofolio-info h3 {
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.portofolio-info p {
+    text-align: justify;
+}
+
+.portofolio-tittle {
+    padding: 10px;
+}
+
+/*==================================
+             Contact
+===================================*/
+#contact-left,
+#contact-right {
+    padding: 0 20px;
+}
+
+#contact-left p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#contact .content-tittle-underline {
+    margin: 0 0 30px 0;
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#contact-info .row [class*=col-] {
+    display: flex;
+    align-items: center;
+}
+
+#contact-info-address-icon i,
+#contact-info-telp-icon i {
+    color: #fff;
+    font-size: 30px;
+}
+
+#contact-left p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#contact-info-address-desc h3,
+#contact-info-telp-desc h3 {
+    text-align: justify;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#contact-social-media i {
+    color: white;
+    padding: 10px 20px 20px 0;
+}
+
+#contact-social-media .social-media:hover i {
+    color: #EC080E;
+}
+
+#map {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*==================================
+             Footer
+===================================*/
+#footer {
+    background-color: dimgray;
+    padding-top: 10px;
+    border-top: 5px solid rgba(0, 0, 0.1);
+}
+
+#contact input[type=text],
+#contact textarea {
+    background-color: #fff;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+
+/*==================================
+             Footer Bottom
+===================================*/
+#footer-bottom {
+    background-color: rgba(0, 0, 0.1);
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: right;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #EC080E;
+}
+
+/*==================================
+            Menu & Navigation
+===================================*/
+.navbar {
+    padding: 5px 20px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-brand img {
+    height: 20px;
+}
+
+.klik-navbar {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #EC080E;
+}
+
+.navbar-custom. navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EC080E;
+}
+
+.navbar-custom .navbar-nav .active > .nav-link,
+.navbar-custom .navbar-nav .nav-link.active,
+.navbar-custom .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #EC080E;
+}
+
+.navbar-nav > li > a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.navbar-toggler {
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.navbar-toggler .fa {
+    color: #fff;
+}
+
+/*==================================
+            Careers
+/*==================================*/
+
+#careers .content-box {
+    background-color: #f8f8f8;
+
+}
+
+#careers p {
+    text-align: justify;
+}
+
+#careers button {
+    margin: 0 auto;
+}
+
+#careers-container {
+    padding: 0 30px;
+}
+
+#careers-container .row [class*=col-] {
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.careers-info p,
+h3 {
+    color: #444;
+}
+
+.careers-info p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+    position: relative;
+}
+
+.careers-more-info {
+    color: #444;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.card-header h5 {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
