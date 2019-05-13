@@ -363,8 +363,13 @@ body {
 
 #map {
     width: 100%;
+    height: 200px;
     padding: 10px 0;
     text-align: center;
+    border: 1px solid white;
+}
+.twitter-follow-button{
+    margin-top: 10px;
 }
 
 /*==================================
